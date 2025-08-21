@@ -3,8 +3,7 @@ import os
 import json
 from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
-from langchain.agents import load_tools
-load_tools([])
+
 
 load_dotenv(dotenv_path="keys.env")
 key = os.getenv("openai_api_key")
