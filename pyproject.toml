@@ -10,4 +10,5 @@ dependencies = [
     "langchain-openai>=0.3.30",
     "openai>=1.99.9",
     "pinecone>=7.3.0",
+    "streamlit>=1.48.1",
 ]
