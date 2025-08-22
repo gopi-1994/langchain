@@ -9,6 +9,7 @@ load_dotenv(dotenv_path="keys.env")
 key = os.getenv("openai_api_key")
 
 llm = ChatOpenAI(
+    # model="gpt-5",
     model="gpt-4.1-nano-2025-04-14",
     api_key=key
 )

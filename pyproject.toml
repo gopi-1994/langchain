@@ -7,8 +7,10 @@ requires-python = ">=3.11"
 dependencies = [
     "dotenv>=0.9.9",
     "langchain>=0.3.27",
+    "langchain-community>=0.3.27",
     "langchain-openai>=0.3.30",
     "openai>=1.99.9",
     "pinecone>=7.3.0",
     "streamlit>=1.48.1",
+    "wikipedia>=1.4.0",
 ]
